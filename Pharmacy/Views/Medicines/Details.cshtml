@@ -1,0 +1,49 @@
+﻿@model Pharmacy.Models.Medicine
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+
+<div class="DetailContainer">
+    <h4>Medicine</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GenericName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GenericName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BrandName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BrandName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BuyPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BuyPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SellPrice)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SellPrice)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UsedFor)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UsedFor)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.MedicineID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

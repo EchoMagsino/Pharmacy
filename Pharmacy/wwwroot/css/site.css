@@ -1,0 +1,156 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+
+  }
+}
+
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.header div {
+    background-color: #043927;
+    padding: 5px;
+}
+
+.header nav {
+    padding: 0px;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+body {
+    background: linear-gradient(to right, #145c32 30%, rgba(91, 191, 85, 0) 100%), url('../Photos/pexels-karolina-grabowska-4046945.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+body a {
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+.MenuBtn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+ .nav-link:hover {
+   
+    text-decoration: underline;
+}
+
+.container {
+    color: white;
+}
+
+.dropdown-item {
+    text-decoration: none;
+    color: white !important;
+}
+
+.text-center {
+    font-family: Arial;
+    color: ghostwhite;
+    margin-right: 75%;
+    margin-top: 10%;
+}
+
+
+img {
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; 
+}
+
+
+.ImageContainer {
+    padding: 35px; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+figure {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    position: auto;
+    
+}
+
+.navbar-toggler-icon {
+    background-image: url('../photos/whitetoggler-removebg-preview.png');
+    
+}
+
+.border-top {
+    background: #043927;
+}
+
+.table {
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.createTable {
+    text-decoration: none;
+    color: black;
+    padding: 4px;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+    .createTable:hover {
+        
+        box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.5);
+        color: black;
+    }
+
+.EditDetailsDeleteBtn a{
+    color: black;
+    text-decoration: none;
+}
+
+.EditDetailsDeleteBtn a:hover {
+   text-decoration: underline;
+}
+
+.DetailContainer dl {
+    padding: 5px;
+    color: black;
+    background-color: white;
+    border-radius: 2px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
