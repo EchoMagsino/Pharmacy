@@ -68,6 +68,7 @@ $.extend( $.fn, {
 					event.preventDefault();
 				}
 
+
 				function handle() {
 					var hidden, result;
 

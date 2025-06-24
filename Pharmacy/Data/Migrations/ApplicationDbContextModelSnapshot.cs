@@ -249,7 +249,7 @@ namespace Pharmacy.Data.Migrations
 
                     b.HasKey("CustomerID");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
                 });
 
             modelBuilder.Entity("Pharmacy.Models.Medicine", b =>
@@ -277,7 +277,7 @@ namespace Pharmacy.Data.Migrations
 
                     b.HasKey("MedicineID");
 
-                    b.ToTable("Medicines");
+                    b.ToTable("Medicines", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

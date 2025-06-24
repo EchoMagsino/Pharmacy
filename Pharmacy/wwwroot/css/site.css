@@ -61,8 +61,19 @@ h1 {
     text-decoration: underline;
 }
 
+.nav-link.active {
+    text-decoration: underline;
+   
+}
+
+.dropdown-item:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: background-color 0.3s ease;
+}
+
 .container {
     color: white;
+
 }
 
 .dropdown-item {
@@ -149,8 +160,15 @@ figure {
     
 }
 
-.dropdown-item:hover {
-    background-color: rgba(0, 0, 0, 0.4);
-    transition: background-color 0.3s ease;
+.form-floating {
+    color: black;
 }
 
+#registerForm {
+    color: black;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    margin-bottom: 30px;
+}
