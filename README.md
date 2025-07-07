@@ -36,3 +36,10 @@ As you can see, the web app features a clean and intuitive navigation bar. Custo
 
 ---
 
+## 📬 Contact
+
+Created with ❤️ by Jericho E. Magsino  
+📧 Email: jerichomagsino28@gmail.com 
+🌐 GitHub: [EchoMagsino](https://github.com/EchoMagsino)  
+
+---
