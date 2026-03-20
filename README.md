@@ -1,16 +1,16 @@
-# 💊 Web App Pharmacy
+# Web App Pharmacy
 
 A simple CRUD-based ASP.NET Core MVC project for managing a pharmacy's operations. This is my first website built with .NET MVC. It includes functionalities for handling:
 
-- 💵 Medicine pricing
-- 👥 Customer transactions
-- 👔 Employee roles
+- Medicine pricing
+- Customer transactions
+- Employee roles
 
 I’m planning to expand the system with an order feature that integrates with e-wallet APIs.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 To run this project locally:
 
@@ -20,7 +20,7 @@ To run this project locally:
 
 ---
 
-## 🧪 Preview
+## Preview
 
 ![Screenshot](https://github.com/user-attachments/assets/6e4a0fbe-c092-4d3b-910c-c7ec5de71467)
 
@@ -28,17 +28,17 @@ As you can see, the web app features a clean and intuitive navigation bar. Custo
 
 ---
 
-## 🛠 Future Plans
+## Future Plans
 
-- 🛒 Add order management with cart functionality
-- 🧾 Integrate e-wallet APIs for seamless payments
-- 🔐 Role-based access for employees (e.g., Managers assigning roles)
+- Add order management with cart functionality
+- Integrate e-wallet APIs for seamless payments
+- Role-based access for employees (e.g., Managers assigning roles)
 
 ---
 
-## 📬 Contact
+## Contact
 
-Created with ❤️ by Jericho E. Magsino  
+Created with by Jericho E. Magsino  
 📧 Email: jerichomagsino28@gmail.com 
 🌐 GitHub: [EchoMagsino](https://github.com/EchoMagsino)  
 
